@@ -2,16 +2,23 @@
     "api_token": "5774826602:AAEjI-KyMQmYjPM6sFS8KlCHqCVwhbzUc34",
     "surveyCommandEnabled": true,
     "participantsEnterCondition": false,
-    "subscription_start_date": "2022-10-23 00:00",
+    "subscription_start_date": "2022-10-01 00:00",
     "subscription_deadline": "2024-01-01 00:00",
-    "daily_dates": ["2022-10-23", "2022-10-24", "2022-10-25"],
+    "daily_dates": [
+        "2022-10-24",
+        "2022-10-25",
+        "2022-10-26"
+    ],
     "daily_times": [
         ["20:00"],
         ["10:18", "12:20", "10:52", "10:42", "16:45"],
         ["10:00", "12:00"],
         ["10:00"]
     ],
-    "end_dates": ["2022-10-26", "2022-10-27"],
+    "end_dates": [
+        "2022-10-27",
+        "2022-10-28"
+    ],
     "end_times": [
         ["08:00", "18:45"],
         ["10:00", "11:20"]
@@ -63,24 +70,24 @@
         "end_url_distribution": "DAY"
     },
     "texts": {
-        "welcome": "Welcome to the survey bot.",
-        "subscribe": "You will get now reminders for the actual survey. Please fill out the start survey.",
-        "subscribe_early": "Sorry, the survey has not started yet.",
-        "subscribe_late": "Sorry, the survey has already started.",
-        "subscribe_already": "Sorry, you are already subscribed.",
-        "subscribe_wakeup_time": "Please tell me your wakeup time in the format",
-        "subscribe_condition": "Please enter your condition number",
-        "unsubscribe": "You will get no longer reminder for actual surveys.",
-        "daily_reminder": "Hi there, it is time for a daily survey.",
-        "end_reminder": "Hi, it is time for the end survey.",
-        "survey_reply": "Here is your survey link.",
-        "endSurveyReminder": "Hi, have you already participated the end survey?",
-        "endSurveyReminderYes": "Yes",
-        "endSurveyReminderNo": "No"
+        "welcome": "Добро пожаловать в бот для проведения опросов.",
+        "subscribe": "Вы будете получать напоминания о начале опроса. Пожалуйста, заполните стартовый опрос.",
+        "subscribe_early": "Извините, проведение исследования еще не началось.",
+        "subscribe_late": "Извините, проведение исследования уже началось.",
+        "subscribe_already": "Простите, вы уже подписаны.",
+        "subscribe_wakeup_time": "Пожалуйста, сообщите время вашего пробуждения в формате",
+        "subscribe_condition": "Пожалуйста, введите номер вашего исследования",
+        "unsubscribe": "Вам больше не будут приходить напоминания для прохождения опросов.",
+        "daily_reminder": "Здравствуйте, наступило время для ежедневного опроса.",
+        "end_reminder": "Здравствуйте, пришло время завершающего опроса.",
+        "survey_reply": "Вот ссылка на опрос.",
+        "endSurveyReminder": "Здравствуйте, вы уже прошли заключительный опрос?",
+        "endSurveyReminderYes": "Да",
+        "endSurveyReminderNo": "Нет"
     },
     "help": {
         "helpEnabled": true,
-        "help_text": "Here are all available commands:\n/subscribe - activates the reminder service\n/unsubscribe - deactivates the reminder service",
-        "surveyCommandHelp": "\n/survey - send you an daily survey link"
+        "help_text": "Вот все доступные команды:\n/subscribe - активирует функцию напоминания\n/unsubscribe - отключает функцию напоминания",
+        "surveyCommandHelp": "\n/survey - прислать вам ссылку на ежедневный опрос"
     }
 }
