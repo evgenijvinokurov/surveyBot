@@ -67,7 +67,7 @@
             ["https://www.yoursurveysite.de/end_cond1_link1/", "https://www.yoursurveysite.de/end_cond1_link2/"],
             ["https://www.yoursurveysite.de/end_cond2_link1/", "https://www.yoursurveysite.de/end_cond2_link2/"]
         ],
-        "end_url_distribution": "DAY"
+        "end_url_distribution": "День"
     },
     "texts": {
         "welcome": "Добро пожаловать в бот для проведения опросов.",
