@@ -38,14 +38,14 @@
         "end_DelayMinutesBetweenSurveys": 90
     },
     "linkDeletionSettings": {
-        "start_DeleteLinkAtSubscriptionDeadline": true,
-        "start_DeleteLinkTimer": false,
+        "start_DeleteLinkAtSubscriptionDeadline": false,
+        "start_DeleteLinkTimer": true,
         "start_DeleteDelayMinutes": 240,
-        "daily_DeleteLinkAtNewLink": false,
-        "daily_DeleteLinkTimer": true,
+        "daily_DeleteLinkAtNewLink": true,
+        "daily_DeleteLinkTimer": false,
         "daily_DeleteDelayMinutes": 60,
-        "end_DeleteLinkAtNewLink": true,
-        "end_DeleteLinkTimer": false,
+        "end_DeleteLinkAtNewLink": false,
+        "end_DeleteLinkTimer": true,
         "end_DeleteDelayMinutes": 120
     },
     "randomTimeShiftSettings": {
@@ -67,7 +67,7 @@
             ["https://www.yoursurveysite.de/end_cond1_link1/", "https://www.yoursurveysite.de/end_cond1_link2/"],
             ["https://www.yoursurveysite.de/end_cond2_link1/", "https://www.yoursurveysite.de/end_cond2_link2/"]
         ],
-        "end_url_distribution": "День"
+        "end_url_distribution": "NONE"
     },
     "texts": {
         "welcome": "Добро пожаловать в бот для проведения опросов.",
